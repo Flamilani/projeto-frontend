@@ -1,0 +1,168 @@
+.bg-custom {
+    background-color: greenyellow;
+}
+
+.bg-custom .container a {
+    color: #0080ff;
+}
+
+.button-custom {
+    font-size: 0px;
+}
+
+.button-custom:hover {
+    background-color: #0080ff;
+}
+
+.blocos {
+    margin: 20px;
+}
+
+#produtos {
+    padding: 1em 0;
+}
+
+#produtos .row {
+    margin: 0;
+}
+
+#produtos .col-md-3 {
+    padding: 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #0088b7;
+}
+
+@media (min-width: 768px) {
+    .title {
+        text-align: left;
+    }
+
+    .card {
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .card img {
+        width: 240px;
+        margin: 2em auto;
+    }
+
+    .card .card-category {
+        font-size: 0.8em;
+    }
+
+}
+
+.img-size {
+    width: 100px;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    border: 3px solid #0088b7;
+}
+
+#gallery .image-container:hover {
+    border-color: #a8cf45;
+}
+
+#insta1 {
+    background-image: url('../imgs/foto01.jpg');
+}
+
+#insta2 {
+    background-image: url('../imgs/foto02.jpg');
+}
+
+#insta3 {
+    background-image: url('../imgs/foto03.jpg');
+}
+
+#insta4 {
+    background-image: url('../imgs/foto04.jpg');
+}
+
+#insta5 {
+    background-image: url('../imgs/foto05.jpg');
+}
+
+#insta6 {
+    background-image: url('../imgs/foto06.jpg');
+}
+
+#footer-links-container {
+    border-bottom: 1px solid #0088b7;
+}
+
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer-links-container h6 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#footer-links-container li {
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer-links-container a {
+    text-decoration: none;
+}
+
+#footer-center {
+    border-left: 2px solid #0088b7;
+    border-right: 2px solid #0088b7;
+}
+
+#footer-center .store-message {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.footer-column {
+    background-color: #acd150d5;
+}
+
+#direitos-container {
+    text-align: center;
+    padding: 25px;
+    background-color: #0088b7;
+    color: #fff;
+}
